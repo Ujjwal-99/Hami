@@ -14,21 +14,21 @@
 </head>
 <body>
     <!-- header -->
-    <header>
+    <header >
     <div class="container-fluid bg-primary text-white">
      <div class="container">
       <div class="row  border-bottom border-2 border-light border-success
       border-opacity-10">
-        <div class="col-md-8 d-flex text-start justify-content-start">
+        <div class="col-md-8  d-flex text-start justify-content-start">
             <a class="nav-link py-2 pe-3"><i class="fa-solid fa-phone" style="color: #f0f0f0;"></i>
-                <span class=""> Contact no.: 9560798734</span></a></a>
+                <span class="d-none d-lg-inline"> Contact no.: 9560798734</span></a></a>
             <a class="nav-link py-2 px-3 border-2 border-start
             border-light border-success border-opacity-10"><i class="fa-solid fa-envelope" style="color: #f5f9ff;"></i>
-            <span class=" d-lg-inlne"> Email:ujjwalbhatt180180@gmail.com</span></a>
+            <span class="d-none d-lg-inlne"> Email:ujjwalbhatt180180@gmail.com</span></a>
         </div>
         <div class="col-md-4 d-flex text-white justify-content-end ">
            <a class="nav-link border-end border-2 border-light border-success border-opacity-10
-           py-2 px-3"><span>Login</span></a>
+           py-2 px-3"><i class="fa-solid fa-lock pe-2"></i><span class="d-none d-lg-inline ">Login</span></a>
            <span class=" text-white align-item-centre">
             <a class="nav-link dropdown-toggle py-2 px-3 text-white" href="#" role="button" 
             id="dropdownMenuLink" data-bs-toggle="dropdown" >
@@ -49,8 +49,9 @@
           </h2>
         </div>
         <div class="col-md-8 d-flex justify-content-end " >
-          <nav class="navbar navbar-expand-lg ">
-            <div class="collapse navbar-collapse" >
+          <nav class="navbar navbar-expand-lg  ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarMenu" >
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                   <li class="nav-item">
                     <a class="nav-link active lists text-white"  href="#">Home</a>
